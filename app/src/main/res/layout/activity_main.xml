@@ -10,37 +10,39 @@
 
     <Button
         android:id="@+id/btnInput"
+        style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00AE72"
-        android:lineSpacingExtra="10sp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
         android:text="Nhập thời khóa biểu"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
-
-    <Button
-        android:id="@+id/btnViewWeek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#00AE72"
-        android:lineSpacingExtra="24sp"
-        android:text="Xem Thời khóa biểu tuần"
-        android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
         android:typeface="sans" />
 
     <Button
         android:id="@+id/btnViewDay"
+        style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00AE72"
-        android:lineSpacingExtra="24sp"
-        android:text="Xem thời khóa biểu ngày"
+        android:background="@drawable/button"
         android:textColor="#FFFFFF"
+        android:text="Xem thời khóa biểu ngày"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btnViewWeek"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:text="Xem Thời khóa biểu tuần"
         android:textSize="16sp"
         android:textStyle="bold"
         android:typeface="sans" />
 </LinearLayout>
+
